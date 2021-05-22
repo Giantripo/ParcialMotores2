@@ -5,26 +5,29 @@ using UnityEngine;
 public class Pickeable : Interactable
 {
     public bool interact;
+    public Rigidbody torus;
     public override void Interact()
     {
         base.Interact();
         if (interact)
         {
             Destroy(gameObject);
+           
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Nota"))
+        if (other.gameObject.CompareTag("Torus"))
         {
+           
             interact = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("Nota"))
+        if (other.gameObject.CompareTag("Torus"))
         {
             interact = false;
         }

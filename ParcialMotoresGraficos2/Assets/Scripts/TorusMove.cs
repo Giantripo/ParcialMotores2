@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NotaMove : InstantiatorNote
+public class TorusMove : InstantiatorNote
 {
     
     public Rigidbody rb;
@@ -13,7 +13,7 @@ public class NotaMove : InstantiatorNote
     {
         rb = GetComponent<Rigidbody>();
         
-        cont2 = 1;
+        cont2 = 0.1f;
     }
     private void Update()
     {
@@ -29,7 +29,7 @@ public class NotaMove : InstantiatorNote
             rb.velocity = new Vector3(0, 0, velDisparo = velDisparo * -1);
             //velDisparo = velDisparo * -1;
 
-            cont2 = 0.5f;
+            cont2 = 0.1f;
         }
     }
 }

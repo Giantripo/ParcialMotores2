@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -4223956224409629716}
   m_Layer: 0
   m_Name: Torus
-  m_TagString: Nota
+  m_TagString: Torus
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61603,6 +61603,7 @@ MonoBehaviour:
   balaPrefab: {fileID: 326260939325584778}
   disparador: {fileID: 326260939325584781}
   balaImpulso: {fileID: 326260939325584778}
-  cont: 0
+  contTiempo: 0
+  contCantidad: 0
   rb: {fileID: 0}
   cont2: 0

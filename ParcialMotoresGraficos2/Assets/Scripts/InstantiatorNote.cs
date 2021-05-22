@@ -5,28 +5,38 @@ using UnityEngine;
 public class InstantiatorNote : MonoBehaviour
 {
     public float velDisparo;
-    public Rigidbody balaPrefab;
+    public Rigidbody torusP;
+    public Rigidbody notaP;
     public Transform disparador;
     public Rigidbody balaImpulso;
-    public float cont;
-
+    public float contTiempo;
+    public int contCantidad;
     void Start()
     {
-        cont = 1;
+
+        contCantidad = 0;
+        contTiempo = 1;
     }
 
 
     void Update()
     {
-        cont -= Time.deltaTime;
+        float posXGeneracion = Random.Range(-12, 3);
+        float posZGeneracion = Random.Range(-20, 12);
+        Vector3 posAleatoria = new Vector3(posXGeneracion, 3, posZGeneracion);
+        contTiempo -= Time.deltaTime;
 
-        if (cont < 0)
+        if (contTiempo < 0 &&contCantidad<5)
         {
-            //instancia el prefab en una posicion determinada
-            balaImpulso = Instantiate(balaPrefab, disparador.position, Quaternion.identity);
-            //le añade una fuerza al prefab para que sea disparado
+            
+            balaImpulso = Instantiate(torusP, posAleatoria, Quaternion.identity);
             balaImpulso.AddForce(disparador.forward * 100 * velDisparo);
-            cont = 3;
+            balaImpulso = Instantiate(notaP, posAleatoria, Quaternion.identity);
+            balaImpulso.AddForce(disparador.right * 100 * velDisparo);
+            contTiempo = 3;
+            contCantidad++;
         }
+     
+        
     }
 }
