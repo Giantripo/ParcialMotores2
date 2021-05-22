@@ -17,12 +17,4 @@ public class ContMusic : MonoBehaviour
     {
         timer1 = timer;
     }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Nota"))
-        {
-            timer = true;
-        }
-    }
 }
