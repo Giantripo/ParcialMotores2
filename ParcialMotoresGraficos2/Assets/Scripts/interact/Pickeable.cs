@@ -12,7 +12,7 @@ public class Pickeable : Interactable
         if (interact)
         {
             Destroy(gameObject);
-           
+            ChangePointsMat.cont++;
         }
     }
 
