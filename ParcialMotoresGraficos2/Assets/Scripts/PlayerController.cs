@@ -43,7 +43,9 @@ public class PlayerController : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(camera.position, camera.forward, out hit, rayDistance, LayerMask.GetMask("Interactable")))
             {
-                Debug.Log(hit.transform.name);
+                //me dice el nombre de lo que estoy tocando
+                //Debug.Log(hit.transform.name);
+                hit.transform.GetComponent<Interactable>().Interact();
             }
         } 
     }

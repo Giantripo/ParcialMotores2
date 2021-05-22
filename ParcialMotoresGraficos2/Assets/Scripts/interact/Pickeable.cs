@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Pickeable : Interactable
 {
+   
     public override void Interact()
     {
         base.Interact();
-
-        Destroy(gameObject);
+        if (ContMusic.timer)
+        {
+            Destroy(gameObject);
+        }
+       
     }
 }
