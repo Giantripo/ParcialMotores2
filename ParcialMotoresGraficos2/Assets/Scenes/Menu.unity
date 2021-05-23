@@ -452,14 +452,14 @@ RectTransform:
   m_GameObject: {fileID: 900094706}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1954624287}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -5.99, y: -1210.3}
+  m_AnchoredPosition: {x: 113, y: -1566}
   m_SizeDelta: {x: 24.461548, y: 2423.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &900094708
@@ -542,139 +542,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1480052946
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1480052947}
-  - component: {fileID: 1480052949}
-  - component: {fileID: 1480052948}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1480052947
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480052946}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1552380202}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -155, y: 114}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1480052948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480052946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Canserbero\n \"Es \xE9pico\""
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 1
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1480052949
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1480052946}
-  m_CullTransparentMesh: 0
 --- !u!1 &1501539602
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,7 +767,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1480052947}
   - {fileID: 1739152769}
   - {fileID: 1954624287}
   m_Father: {fileID: 0}
@@ -1005,15 +871,15 @@ RectTransform:
   m_GameObject: {fileID: 1739152768}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8919345, y: 1.8919345, z: 1.8919345}
   m_Children:
   - {fileID: 1501539603}
   m_Father: {fileID: 1552380202}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -160, y: -11}
+  m_AnchoredPosition: {x: -400, y: -250}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1739152770
@@ -1119,8 +985,10 @@ GameObject:
   - component: {fileID: 1768082456}
   - component: {fileID: 1768082455}
   - component: {fileID: 1768082454}
+  - component: {fileID: 1768082458}
+  - component: {fileID: 1768082459}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Portada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1135,7 +1003,7 @@ MeshCollider:
   m_GameObject: {fileID: 1768082453}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -1158,7 +1026,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 90a3525d78cc19e4c8000df48e53b298, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1194,13 +1062,135 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768082453}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 310, y: 97.66, z: 0.77963257}
-  m_LocalScale: {x: 98.54221, y: 98.54221, z: 98.54221}
+  m_LocalRotation: {x: 0.00000014901161, y: -0.7071068, z: 0.7071068, w: 0.00000014901161}
+  m_LocalPosition: {x: -7, y: 1.5, z: 0}
+  m_LocalScale: {x: 0.7236105, y: 0.7236098, z: 0.7236098}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 89.99999}
+--- !u!114 &1768082458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768082453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e0e713d32095243b1b5984831afb66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &1768082459
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768082453}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1868779723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1868779727}
+  - component: {fileID: 1868779726}
+  - component: {fileID: 1868779725}
+  - component: {fileID: 1868779724}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1868779724
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868779723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1868779725
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868779723}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: cdc1b503e5dc4c649b8acc8505965830, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1868779726
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868779723}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1868779727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868779723}
+  m_LocalRotation: {x: 0.00000014901161, y: -0.7071068, z: 0.7071068, w: 0.00000014901161}
+  m_LocalPosition: {x: 0, y: 1, z: 2.86}
+  m_LocalScale: {x: 3.5273077, y: 3.5273077, z: 3.5273077}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: -90, z: 89.99999}
 --- !u!1 &1954624286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,15 +1220,15 @@ RectTransform:
   m_GameObject: {fileID: 1954624286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 3.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6465, y: 1.6465, z: 1.6465}
   m_Children:
   - {fileID: 900094707}
   m_Father: {fileID: 1552380202}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 131, y: -203}
+  m_AnchoredPosition: {x: 81, y: -588}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!54 &1954624288
@@ -1276,53 +1266,53 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Oh-oh, me falta el aire (Me falta el aire)\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn-tuc\xFAn\r\nHoy
+  m_text: "Oh-oh, me falta el aire (Me falta el aire)\r\n\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn-tuc\xFAn\r\nHoy
     va a correr sangre (Va a correr sangre)\r\nYa s\xE9 por d\xF3nde se mueve ese
-    bum\r\nHoy voy a convertirme en un criminal, ya no creo en nadie\r\nA menos que
-    me convierta en un muerto\r\nHoy voy a vengar a mi hermano, como le jur\xE9 a
-    mi padre\r\nDiente por diente, ojo por ojo es esto\r\nUna bicha prestada, porque
+    bum\r\nHoy voy a convertirme en un criminal.\nYa no creo en nadie\r\nA menos
+    que me convierta en un muerto\r\nHoy voy a vengar a mi hermano, como le jur\xE9
+    a mi padre\r\nDiente por diente, ojo por ojo es esto\r\nUna bicha prestada, porque
     no soy hampa\r\nPero la rabia que siento no escampa\r\nEs tanta que me ahoga,
-    nunca hab\xEDa olido droga\r\nPero, ahora es necesario pa' cumplir con lo que
-    el coraz\xF3n me implora\r\nSiento que se me sale el t\xF3rax, la moto a cien
+    nunca hab\xEDa olido droga\r\nPero, ahora es necesario pa' cumplir con\n lo que
+    el coraz\xF3n me implora\r\nSiento que se me sale el t\xF3rax, la moto\n a cien
     por hora\r\nPelo por la bicha y le grito: \"\xA1\xBFY ahora?!\"\r\nTodo pasa
-    muy chola\r\nEn r\xE1fagas descargo a todo' esos malandros hasta que ya no escupe
-    la pistola\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn\r\nY las
-    balas, pacan-pacan, pacan-pacan\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn\r\nY
+    muy chola\r\nEn r\xE1fagas descargo a todo' esos malandros\n hasta que ya no
+    escupe la pistola\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn\r\nY
+    las balas, pacan-pacan, pacan-pacan\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn\r\nY
     las balas, pacan-pacan, pacan\r\nHey, lloro de la arrechera mientras en la acera
     caigo\r\nEscucho a una se\xF1ora que grita que mataron a Carlos\r\nSolo ah\xED
     fue cuando sonre\xED aliviado porque Carlos\r\nFue el bastardo que mat\xF3 a
     mi hermano\r\nTodo es confuso, escucho uiu-uiu-uiu\r\nLo veo bien y siento fr\xEDo,
     fr\xEDo, fr\xEDo\r\nUn tipo gritando, el m\xEDo, el m\xEDo, el m\xEDo\r\nHasta
-    que ya no escuche na' m\xE1s que un profundo silencio\r\n(Un profundo silencio,
-    un profundo silencio)\r\nVarios segundos de calma, mi alma al lado de mi cuerpo\r\nMe
+    que ya no escuche na' m\xE1s que\n un profundo silencio\r\n(Un profundo silencio,
+    un profundo silencio)\r\nVarios segundos de calma, mi alma\n al lado de mi cuerpo\r\nMe
     dije: \"A\xFAn no he ido al m\xE1s all\xE1\"\r\nSiento un olor a perfume, veo
-    una luz en un t\xFAnel\r\nUn fuego que me consume, se empezaba a ver atr\xE1s\r\n\"No
-    dejar\xE9 que me abrume el fuego, seguir\xE9 hacia el t\xFAnel\", pens\xE9\r\nPero
-    seguir no pude porque me halaron pa' atr\xE1s\r\nCayendo en pica'\r\nMonta\xF1as
-    negras de azufre con un olor a mierda\r\nCuerpos deformados que sufren, ca\xED
-    sobre una piedra\r\nUn barco viejo con un viejo me esperaba\r\nNo me respond\xEDan
-    nada, almas el barco golpeaban\r\n\xC9l me llevo donde Cerbero (Aj\xE1)\r\nQue
-    dijo no morderme porque le gusta mi nombre de rapero\r\nSi lo ves de esa forma,
+    una \nluz en un t\xFAnel\r\nUn fuego que me consume, se empezaba\n a ver atr\xE1s\r\n\"No
+    dejar\xE9 que me abrume el fuego,\n seguir\xE9 hacia el t\xFAnel\", pens\xE9\r\nPero
+    seguir no pude porque me halaron \npa' atr\xE1s\r\nCayendo en pica'\r\nMonta\xF1as
+    negras de azufre con \nun olor a mierda\r\nCuerpos deformados que sufren,\n ca\xED
+    sobre una piedra\r\nUn barco viejo con un viejo \nme esperaba\r\nNo me respond\xEDan
+    nada, \nalmas el barco golpeaban\r\n\xC9l me llevo donde Cerbero (Aj\xE1)\r\nQue
+    dijo no morderme porque le\n gusta mi nombre de rapero\r\nSi lo ves de esa forma,
     pude tener suerte\r\nIr\xF3nica es la vida, pero tambi\xE9n ir\xF3nica es la
     muerte\r\nMe despert\xE9 ya sentado sobre un estrado\r\nY un jurado de malvados
-    decidir\xEDan mi suerte\r\nRecuerdo que fui golpeado y trasladado a un sitio
-    en uno de los c\xEDrculos con un mont\xF3n de gente\r\nPor vengativo y asesino\r\nTe
-    quemar\xE1s por siempre por toda la eternidad como castigo\r\nVi muchos rostros
-    conocidos y me sent\xED sorprendido porque no pens\xE9 que estuvieran conmigo\r\nPersonas
-    que luc\xEDan buenas en el mundo\r\nComo el Che Guevara, incluso, como Juan Pablo
-    Segundo\r\nPresuntos Dalai Lama, calcina'os con Mao\r\nY los difuntos Stephanie
-    McConell y Beethoven, juntos\r\nMe asombr\xF3 mucho saber que estaban aqu\xED\r\nJohn
-    F. Kennedy, Lennin, Mahoma y Joseph Smith\r\nC\xE9sar y Napole\xF3n, salieron
-    de las llamas porque eran la misma persona que ahora es un tal Obama\r\nNo entend\xEDa
-    nada, pregunt\xE9 por Cristo\r\nY not\xE9 que se burlaban porque nadie lo hab\xEDa
-    visto\r\nOtros dijeron que fue un truco de su iglesia\r\nPara gobernar el mundo
-    con su majestuosa empresa\r\nShans Rosell y Washington, Jos\xE9 de San Mart\xEDn
-    y Ghandi\r\nYasser Arafat, Cristobal Col\xF3n\r\nIsabel de Inglaterra transformada
-    en perra desnuda\r\nSupe, incluso, estaban Bol\xEDvar y Budda\r\nSon demasiadas
-    dudas, pensamientos vagos\r\n\xBFGente buena en el infierno o es que en algo
-    fueron malos?\r\nPor algo est\xE1n aqu\xED, aunque no lo acepten\r\nDebo hallar
-    ahora una manera de huir de la muerte\r\nRecord\xE9 que en la tierra donde hab\xEDa
-    nacido\r\nExist\xEDa una leyenda del diablo con un tal Florentino\r\nObviamente
+    decidir\xEDan mi suerte\r\nRecuerdo que fui golpeado y\n trasladado a un sitio
+    en uno \nde los c\xEDrculos con un mont\xF3n de gente\r\nPor vengativo y asesino\r\nTe
+    quemar\xE1s por siempre por\n toda la eternidad como castigo\r\nVi muchos rostros
+    conocidos y\n me sent\xED sorprendido porque no\n pens\xE9 que estuvieran conmigo\r\nPersonas
+    que luc\xEDan buenas en el mundo\r\nComo el Che Guevara, incluso,\n como Juan
+    Pablo Segundo\r\nPresuntos Dalai Lama, calcina'os con Mao\r\nY los difuntos Stephanie\n
+    McConell y Beethoven, juntos\r\nMe asombr\xF3 mucho saber \nque estaban aqu\xED\r\nJohn
+    F. Kennedy, Lennin,\n Mahoma y Joseph Smith\r\nC\xE9sar y Napole\xF3n, salieron
+    de\n las llamas porque eran la\n misma persona que ahora es un tal Obama\r\nNo
+    entend\xEDa nada, pregunt\xE9 por Cristo\r\nY not\xE9 que se burlaban porque
+    nadie lo hab\xEDa visto\r\nOtros dijeron que fue un truco de su iglesia\r\nPara
+    gobernar el mundo con su majestuosa empresa\r\nShans Rosell y Washington, Jos\xE9
+    de San Mart\xEDn y Ghandi\r\nYasser Arafat, Cristobal Col\xF3n\r\nIsabel de Inglaterra
+    transformada en perra desnuda\r\nSupe, incluso, estaban Bol\xEDvar y Budda\r\nSon
+    demasiadas dudas, pensamientos vagos\r\n\xBFGente buena en el infierno o es que
+    en algo fueron malos?\r\nPor algo est\xE1n aqu\xED, aunque no lo acepten\r\nDebo
+    hallar ahora una manera de huir de la muerte\r\nRecord\xE9 que en la tierra donde
+    hab\xEDa nacido\r\nExist\xEDa una leyenda del diablo con un tal Florentino\r\nObviamente
     un cuento, pero inteligente para irme de este infierno\r\nInfierno literalmente\r\nVocifer\xE9
     durante meses que pod\xEDa con el jefe\r\nRecitando versos entre fuego y heces\r\nHasta
     que un d\xEDa apareci\xF3 un viejo con traje que me dijo\r\n\"Pierde y me llevo
@@ -1347,18 +1337,19 @@ MonoBehaviour:
     amamos\r\nSi canto rabia es para desahogar por dentro\r\nComo cuando Cristo ech\xF3
     a los comerciantes de su templo\r\n\u2013 De nuevo hablando t\xFA de cosas que
     no sabes\r\nEres un imitador como tu voz, la cual no es tan grave\r\nLo \xFAnico
-    grave es que te crean\r\nPero aunque la mentira tiene patas, tarde o temprano
+    grave es que te crean\r\nPero aunque la mentira tiene patas, \ntarde o temprano
     cojean\r\n\u2013 Me has conmovido ahora que te conozco m\xE1s, Satan\xE1s\r\nNo
     comprendes el arte, tampoco la paz\r\nMi voz es m\xE1s, es m\xE1s, esta es mi
-    voz que Dios me dio de don\r\nPara tenaz usarla, cual daga en tu coraz\xF3n\r\n\u2013
+    voz \nque Dios me dio de don\r\nPara tenaz usarla, cual daga en tu coraz\xF3n\r\n\u2013
     \xBFC\xF3mo puedes hablar de Dios si eres ateo?\r\nEn tus ojos lo veo, mientras
-    mi candela te consume\r\nTe recuerdo que Dios no existe y lo que viste en aquel
-    t\xFAnel no fue m\xE1s que simples \xE1ngeles comunes\r\n\u2013 Dudar y no creer
-    es algo muy distinto y si dudo de Dios es porque no lo he visto\r\nA\xFAn as\xED,
-    insisto en recalcarte lo que contigo aprend\xED\r\nQue reyes habr\xE1n muchos,
-    pero siempre tienes que ir a ti\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn\r\nY
+    mi candela\n te consume\r\nTe recuerdo que Dios no existe y lo que\n viste en
+    aquel t\xFAnel no fue m\xE1s\n que simples \xE1ngeles comunes\r\n\u2013 Dudar
+    y no creer es algo\n muy distinto y si dudo de Dios es porque no lo he visto\r\nA\xFAn
+    as\xED, insisto en recalcarte\n lo que contigo aprend\xED\r\nQue reyes habr\xE1n
+    muchos, pero siempre tienes que ir a ti\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn,
+    tuc\xFAn-tuc\xFAn\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn\r\nY
     el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn,
-    tuc\xFAn-tuc\xFAn\r\nY el coraz\xF3n, tuc\xFAn-tuc\xFAn, tuc\xFAn-tuc\xFAn-tuc\xFAn"
+    tuc\xFAn-tuc\xFAn-tuc\xFAn"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1385,8 +1376,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1401,7 +1392,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
