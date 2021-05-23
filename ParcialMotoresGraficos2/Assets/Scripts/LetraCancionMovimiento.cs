@@ -13,6 +13,6 @@ public class LetraCancionMovimiento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector3(0,5,0);
+        rb.velocity = new Vector3(0,6,0);
     }
 }
