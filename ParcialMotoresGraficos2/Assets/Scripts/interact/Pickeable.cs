@@ -13,6 +13,7 @@ public class Pickeable : Interactable
         {
             Destroy(gameObject);
             ChangePointsMat.cont++;
+            MotoMove.contMoto++;
         }
     }
 
