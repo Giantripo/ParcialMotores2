@@ -13,7 +13,7 @@ public class ChangePointsMat : MonoBehaviour
         rend = GetComponent<Renderer>();
         rend.enabled = true;
         rend.sharedMaterial = material[0];
-       
+        cont = 0;
     }
     private void Update()
     {
