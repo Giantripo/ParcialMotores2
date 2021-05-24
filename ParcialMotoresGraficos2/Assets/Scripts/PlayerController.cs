@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public Camera PlayerCam;
+    
     public Vector2 sensibility;
     public float rayDistance;
    private new Transform camera;
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+
+        camera = transform.Find("Camera");
     }
 
     // Update is called once per frame
