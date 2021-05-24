@@ -8,7 +8,7 @@ public class InstantiatorNote : MonoBehaviour
     public Rigidbody torusP;
     public Rigidbody notaP;
     public Transform disparador;
-    public Rigidbody balaImpulso;
+    private Rigidbody balaImpulso;
     public float contTiempo;
     public int contCantidad;
     void Start()
