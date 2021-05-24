@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class PlayerController : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class PlayerController : ChangeScene
 {
     
     public Vector2 sensibility;
@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
 
         float hor = Input.GetAxis("Mouse X");
         float ver = Input.GetAxis("Mouse Y");

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Pickeable : Interactable
 {
     public bool interact;
@@ -14,6 +14,15 @@ public class Pickeable : Interactable
             Destroy(gameObject);
             ChangePointsMat.cont++;
             MotoMove.contMoto++;
+
+            if (MotoMove.contMoto == 11)
+            {
+                SceneManager.LoadScene(0);
+            }
+            if (ChangePointsMat.cont == 5)
+            {
+                SceneManager.LoadScene(2);
+            }
         }
     }
 
