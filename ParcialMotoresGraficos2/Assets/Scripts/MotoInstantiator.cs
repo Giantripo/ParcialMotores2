@@ -20,16 +20,16 @@ public class MotoInstantiator : MonoBehaviour
 
     void Update()
     {
-        float velDisparoRandom = Random.Range(1, 2);
-        float velDisparoRandom2 = Random.Range(1, 2);
+        float velDisparoRandom = Random.Range(5, 10);
+        float velDisparoRandom2 = Random.Range(5, 10);
         cont -= Time.deltaTime;
 
         if (cont < 0)
         {
             balaImpulso = Instantiate(torusP, disparador.position, Quaternion.identity);
-            balaImpulso.AddForce(disparador.right * 100 * velDisparoRandom);
+            balaImpulso.AddForce(disparador.right * 100 * velDisparoRandom * Time.deltaTime);
             balaImpulso = Instantiate(notaP, disparador.position, Quaternion.identity);
-            balaImpulso.AddForce(disparador.right * 100 * velDisparoRandom2);
+            balaImpulso.AddForce(disparador.right * 100 * velDisparoRandom2 * Time.deltaTime);
             cont = 3;
         }
     }
